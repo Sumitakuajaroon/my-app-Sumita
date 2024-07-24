@@ -1,10 +1,10 @@
-import AECRanking from '@/components/AECRanking'
+import Evaluation from '@/components/Evaluation'
 import React from 'react'
 
 export default function page() {
   return (
     <div>
-      <AECRanking />
+      <Evaluation />
     </div>
   )
 }

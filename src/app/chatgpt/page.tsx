@@ -1,10 +1,10 @@
-import Chatgpt from '@/componentrs/Chatgpt'
+import Chatgpt from '@/components/Chatgpt'
 import React from 'react'
 
 export default function page() {
   return (
     <div>
-      <Chatgpt/>
+      <Chatgpt />
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Kanit } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/componentrs/Navbar";
-import Footer from "@/componentrs/Footer";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
-const kanit = Kanit({ subsets: ["latin"], weight:["100","200","300","400","500","600","700","800","900"] });
+const kanit = Kanit({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,10 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={kanit.className}>
-        <Navbar/>
+        <Navbar />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }

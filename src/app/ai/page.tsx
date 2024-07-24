@@ -1,10 +1,10 @@
-import AI from '@/componentrs/AI'
+import AI from '@/components/AI'
 import React from 'react'
 
 export default function page() {
   return (
     <div>
-   <AI/>
+      <AI />
     </div>
   )
 }

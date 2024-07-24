@@ -1,10 +1,10 @@
-import About from '@/componentrs/About'
+import About from '@/components/About'
 import React from 'react'
 
 export default function page() {
   return (
     <div>
-      <About/>
+      <About />
     </div>
   )
 }
